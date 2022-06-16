@@ -14,7 +14,9 @@
             </div>
             <div class="form-group">
                 <label for="Division">Divisi</label>
-                <input asp-for="Division" type="text" class="form-control required" placeholder="Masukkan Divisi Karyawan" tabindex="3">
+                <div class="form-control">
+                    @Html.DropDownListFor(m => m.Division,new SelectList(Enum.GetValues(typeof(Div))),"Pilih Divisi")
+                </div>
             </div>
             <div class="form-group">
                 <label for="Address">Alamat</label>
@@ -22,9 +24,10 @@
             </div>
             <div class="form-group">
                 <label for="Gender">Jenis Kelamin</label>
-                @* <input asp-for="Gender" type="text" class="form-control required" tabindex="5"> *@
-                @Html.RadioButtonFor(m => m.Gender,"Pria") Pria
-                @Html.RadioButtonFor(m => m.Gender,"Wanita") Wanita
+                <div class="form-control">
+                    @Html.RadioButtonFor(m => m.Gender,"Pria") Pria
+                    @Html.RadioButtonFor(m => m.Gender,"Wanita") Wanita
+                </div>
             </div>
             <div class="form-group">
                 <div asp-validation-summary="All" class="text-danger"></div>
