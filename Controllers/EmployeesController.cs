@@ -66,6 +66,8 @@ namespace CRUDApp.Controllers
                         exist.Name = employee.Name;
                         exist.Position = employee.Position;
                         exist.Division = employee.Division;
+                        exist.Address = employee.Address;
+                        exist.Gender = employee.Gender;
                     }
 
                     await _context.SaveChangesAsync();
