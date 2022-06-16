@@ -1,4 +1,3 @@
-using System.Threading.Tasks;
 using CRUDApp.Data;
 using CRUDApp.Models;
 using Microsoft.AspNetCore.Mvc;
@@ -92,27 +91,14 @@ namespace CRUDApp.Controllers
         [HttpPost]
         public async Task<IActionResult> Delete(Employee employee)
         {
-            // if (ModelState.IsValid)
-            // {
-            //     try
-            //     {
-                    var exist = _context.Employees.Where(x => x.Id==employee.Id).FirstOrDefault();
-                    if (exist != null)
-                    {
-                        _context.Remove(exist);
-                        await _context.SaveChangesAsync();
-                        
-                    }
-                    return RedirectToAction("Index");
-            //     }
-            //     catch (Exception e)
-            //     {
-            //         ModelState.AddModelError(string.Empty, $"Gagal menambah karyawan baru a {e.Message}");
-            //     }
-            // }
-
-            // ModelState.AddModelError(string.Empty, $"Gagal menambah karyawan baru b");
-            // return View(employee);
+            var exist = _context.Employees.Where(x => x.Id==employee.Id).FirstOrDefault();
+            if (exist != null)
+            {
+                _context.Remove(exist);
+                await _context.SaveChangesAsync();
+                
+            }
+            return RedirectToAction("Index");            
         }
 
     }
