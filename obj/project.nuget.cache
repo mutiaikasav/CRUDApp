@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "u2XfwNB8HD3gixqx7QWooMhs455hJg0VhbqSYxY1apSkPctvI3d+Zg93vogqIkvdQRm05xD3aSTQNDrcjH3dhg==",
+  "dgSpecHash": "k68DUQrKeFABtmEgEKkO5b1cA0J1l/7xYV4KJ9/so++FRn+vzP4hiOrSRayXObIsfD7X4I5GV4V2EKXASWUD6A==",
   "success": true,
-  "projectFilePath": "/media/mutiaika/MUTIA/app/CRUDApp/CRUDApp.csproj",
+  "projectFilePath": "/var/www/CRUDApp/CRUDApp.csproj",
   "expectedPackageFiles": [
     "/home/mutiaika/.nuget/packages/humanizer.core/2.8.26/humanizer.core.2.8.26.nupkg.sha512",
     "/home/mutiaika/.nuget/packages/microsoft.aspnetcore.cryptography.internal/6.0.6/microsoft.aspnetcore.cryptography.internal.6.0.6.nupkg.sha512",

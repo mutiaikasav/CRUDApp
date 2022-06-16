@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/media/mutiaika/MUTIA/app/CRUDApp/CRUDApp.csproj": {}
+    "/var/www/CRUDApp/CRUDApp.csproj": {}
   },
   "projects": {
-    "/media/mutiaika/MUTIA/app/CRUDApp/CRUDApp.csproj": {
+    "/var/www/CRUDApp/CRUDApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/media/mutiaika/MUTIA/app/CRUDApp/CRUDApp.csproj",
+        "projectUniqueName": "/var/www/CRUDApp/CRUDApp.csproj",
         "projectName": "CRUDApp",
-        "projectPath": "/media/mutiaika/MUTIA/app/CRUDApp/CRUDApp.csproj",
+        "projectPath": "/var/www/CRUDApp/CRUDApp.csproj",
         "packagesPath": "/home/mutiaika/.nuget/packages/",
-        "outputPath": "/media/mutiaika/MUTIA/app/CRUDApp/obj/",
+        "outputPath": "/var/www/CRUDApp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/mutiaika/.nuget/NuGet/NuGet.Config"
