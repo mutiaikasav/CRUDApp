@@ -16323,6 +16323,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/var/www/CRUDApp/Views/Auth/Index.cshtml",
+      "TargetPath": "Views\\Auth\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/var/www/CRUDApp/Views/Home/Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
@@ -16350,6 +16355,11 @@
     {
       "FilePath": "/var/www/CRUDApp/Views/Home/Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/var/www/CRUDApp/Views/Auth/Welcome.cshtml",
+      "TargetPath": "Views\\Auth\\Welcome.cshtml",
       "FileKind": "mvc"
     },
     {
